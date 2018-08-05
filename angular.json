@@ -29,11 +29,7 @@
               {
                 "input": "node_modules/@angular/material/prebuilt-themes/indigo-pink.css"
               },
-              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css",
-              {
-                "input": "./node_modules/bootstrap/dist/css/bootstrap.css"
-              }
             ],
             "scripts": [
               "node_modules/jquery/dist/jquery.min.js"
@@ -56,7 +52,7 @@
               "extractLicenses": true,
               "vendorChunk": false,
               "buildOptimizer": true,
-              "serviceWorker": true
+              "serviceWorker": false
             }
           }
         },

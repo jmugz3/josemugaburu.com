@@ -1,0 +1,23 @@
+#top-banner {
+    margin-top: 500px;
+    display: block;
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+    position: relative;
+    display: block;
+    width: 100%;
+}
+
+
+#business-card-holder {
+    width: 100%;
+    height: auto;
+    overflow: visible;
+    margin-top: -200px;
+}
+
+
+body {
+    font-family: Open Sans;
+}

@@ -1,0 +1,55 @@
+.blue{
+    background-color: rgb(73, 134, 231);
+}
+
+.red {
+    background-color: rgb(248, 58, 34);
+}
+
+.green {
+    background-color: rgb(22, 167, 101);
+}
+
+.deep-orange {
+    background-color: #E64A19;
+}
+
+.card-spacing {
+    margin: 80px 0;
+}
+
+.white-font {
+    color: white;
+}
+
+
+.card-button{
+    z-index: 4;
+    position: relative;
+    text-align: center;
+    line-height: 3em;
+    cursor: pointer;
+    vertical-align: 50%;
+    transition: .5s ease-in-out;
+    
+    &.active{
+        border-color: white;
+    }
+}
+
+h2 {
+    font-weight: 300;
+    font-size: 3em;
+    line-height: 1;
+    margin: 0 0 30px;
+    strong{
+        font-weight: 700;
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .card-image-display {
+        display: none;
+    }
+}

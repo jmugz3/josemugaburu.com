@@ -9,13 +9,9 @@ export class LightBusinessCardComponent implements OnInit {
   public color: string;
   public columns: string = "1";
 
-  public links: object;
+  public links: any;
 
-  constructor() { }
-
-  ngOnInit() {
-    this.color = "#16a765";
-
+  constructor() {
     this.links = {
       stackOverflow: "https://stackoverflow.com/story/jmugz3",
       github: "https://github.com/jmugz3",
@@ -25,7 +21,11 @@ export class LightBusinessCardComponent implements OnInit {
       blog: "https://jmugz3.com",
       realEstate: "https://mugabits.com/realestate",
       projects: "https://jmugz3.com/projects"
-    }
+    };
+   }
+
+  ngOnInit() {
+    this.color = "#16a765";
   }
 
 }

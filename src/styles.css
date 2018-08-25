@@ -1,9 +1,0 @@
-/* You can add global styles to this file, and also import other style files */
-
-body { 
-    margin: 0;
-    background-image: url("./assets/backgrounds/gplaypattern/gplaypattern.png");
-    background-position: center center;
-    background-attachment: fixed;
-    font-family: 'Roboto','Open Sans', sans-serif;
-}
